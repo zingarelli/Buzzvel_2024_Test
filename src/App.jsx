@@ -1,6 +1,14 @@
-export default function App() {  
+import * as Section from "./components/LandingPage/";
 
+export default function App() {
   return (
-    <h1>Soller</h1>
+    <>
+      <Section.Hero />
+      {/* <Section.Intro />
+      <Section.Services />
+      <Section.Features />
+      <Section.CTA />
+      <Footer /> */}
+    </>
   )
 }
