@@ -1,0 +1,29 @@
+.image {
+    margin-top: 64px;
+    width: 320px;
+    filter: 
+        drop-shadow(0 20px 25px rgba(0,0,0,0.1))
+        drop-shadow(0 0 10px rgba(0,0,0,0.07));
+}
+
+/* TODO: find a better way to position the circles properly */
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.circle__left {
+    width: 250px;
+    position: absolute;
+    left: -190px;
+    top: 160px;
+    z-index: -1;
+}
+
+.circle__right {
+    width: 210px;
+    position: absolute;
+    right: -190px;
+    top: 220px;
+    z-index: -1;
+}

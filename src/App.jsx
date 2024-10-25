@@ -4,11 +4,11 @@ export default function App() {
   return (
     <>
       <Section.Hero />
-      {/* <Section.Intro />
-      <Section.Services />
-      <Section.Features />
-      <Section.CTA />
-      <Footer /> */}
+      <Section.Intro />
+      {/* <Section.Services /> */}
+      {/* <Section.Features /> */}
+      {/* <Section.CTA /> */}
+      {/* <Footer /> */}
     </>
   )
 }
