@@ -5,8 +5,8 @@ export default function App() {
     <>
       <Section.Hero />
       <Section.Intro />
-      {/* <Section.Services /> */}
-      {/* <Section.Features /> */}
+      <Section.Services />
+      <Section.Features />
       {/* <Section.CTA /> */}
       {/* <Footer /> */}
     </>
