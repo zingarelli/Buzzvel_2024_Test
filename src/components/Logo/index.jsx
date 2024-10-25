@@ -1,5 +1,4 @@
 import styles from './Logo.module.css';
-import logoIcon from '../../assets/logo.png';
 
 /**
  * Displays the name and optional image for the brand.
@@ -10,7 +9,7 @@ export default function Logo({ displayImage=false }) {
     const brandName = displayImage ? 'Soller' : 'soller'
     return (
         <figure className={styles.wrapper}>
-            {displayImage && <img className={styles.logo} src={logoIcon} alt="Soller logo" />}
+            {displayImage && <img className={styles.logo} src='./logo.png' alt="Soller logo" />}
             <span className={styles.text} style={{fontSize: fontSize}}>{brandName}</span>
         </figure>
     )
