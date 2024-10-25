@@ -1,0 +1,24 @@
+.article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    width: 148px;
+    align-items: center;
+}
+
+.article__image {
+    width: 64px;
+}
+
+.article__title {
+    font-size: var(--lg);
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.article__content {
+    font-size: var(--base);
+    font-weight: 400;
+    line-height: 22px;
+}
