@@ -1,0 +1,21 @@
+.supTitle {
+    color: var(--orange-primary);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.primary {
+    color: var(--black-primary);
+}
+
+.secondary {
+    color: var(--white);
+}
