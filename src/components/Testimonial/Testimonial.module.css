@@ -1,0 +1,50 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.avatar {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.avatar__picture {
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+}
+
+.avatar__company {
+    font-size: 14px;
+    color: var(--black-secondary);
+    line-height: 20px;
+}
+
+/* Change styles for testimonial in hero section */
+.testimonial--highlight {
+    row-gap: 16px;
+}
+
+.testimonial--highlight .avatar {
+    column-gap: 16px;
+}
+
+.testimonial--highlight .avatar__picture {
+    width: 64px;
+    height: 64px;
+}
+
+.testimonial--highlight .avatar__name {
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.testimonial--highlight .avatar__company {
+    font-size: 16px;
+    line-height: 22px;
+}
