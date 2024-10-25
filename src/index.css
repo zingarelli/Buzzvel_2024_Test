@@ -25,9 +25,14 @@
   --purple-secondary: #7E22CE;
   --purple-tertiary: #A252EE;
   --purple-quaternary: #A855F7;  
+
+  /* screen breakpoints */
+  --mobile: 375px;
+  --desktop: 1920px;
+  /* --tablet: ? */
 }
 
-body {
+body, button {
   font-family: var(--font-family);
   color: var(--black-primary);
   padding: 0 16px;

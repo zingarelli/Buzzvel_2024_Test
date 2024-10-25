@@ -1,13 +1,13 @@
 .supTitle {
     color: var(--orange-primary);
-    font-size: 16px;
+    font-size: var(--base);
     font-weight: 500;
     line-height: 18px;
     margin-bottom: 8px;
 }
 
 .title {
-    font-size: 32px;
+    font-size: var(--heading-1);
     font-weight: 700;
     line-height: 32px;
 }
