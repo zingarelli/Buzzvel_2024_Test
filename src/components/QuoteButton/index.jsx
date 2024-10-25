@@ -9,7 +9,6 @@ import styles from './QuoteButton.module.css';
  */
 export default function QuoteButton({ theme = 'purple' }) {
     const classTheme = theme === 'purple' ? 'purpleTheme' : 'orangeTheme';
-    console.log(styles[classTheme])
     return (
         <button className={`${styles.button} ${styles[classTheme]}`}>
             Request a Quote &rarr;
