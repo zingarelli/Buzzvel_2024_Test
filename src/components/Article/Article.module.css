@@ -5,4 +5,21 @@
 
 .article__intro {
     margin-top: 24px;
+    line-height: 22px;
+}
+
+.article--primary {
+    background-color: var(--white);
+}
+
+.article--secondary {
+    background-color: var(--purple-primary);
+}
+
+.article__intro--primary {
+    color: var(--black-primary);
+}
+
+.article__intro--secondary {
+    color: var(--white);
 }
