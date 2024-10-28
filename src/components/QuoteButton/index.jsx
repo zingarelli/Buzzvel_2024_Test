@@ -1,3 +1,4 @@
+import ArrowRight from '../Icons/ArrowRight';
 import styles from './QuoteButton.module.css';
 
 /**
@@ -11,7 +12,7 @@ export default function QuoteButton({ theme = 'purple' }) {
     const classTheme = theme === 'purple' ? 'purpleTheme' : 'orangeTheme';
     return (
         <button className={`${styles.button} ${styles[classTheme]}`}>
-            Request a Quote &rarr;
+            Request a Quote <ArrowRight theme={theme} />
         </button>
     )
 }
