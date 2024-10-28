@@ -1,0 +1,14 @@
+.wrapper {
+    padding: 32px;
+    background-color: var(--white);
+    border: solid 1px #E2E8F0;
+    border-radius: 10px;
+    text-align: left;
+    width: 90vw;
+    max-width: 358px;
+    box-sizing: border-box;
+}
+
+.image {
+    margin-bottom: 16px;
+}
