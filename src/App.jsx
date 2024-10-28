@@ -9,7 +9,7 @@ export default function App() {
       <Section.Features />
       <Section.Testimonials />
       <Section.CTA />
-      {/* <Footer /> */}
+      <Section.Footer />
     </>
   )
 }
