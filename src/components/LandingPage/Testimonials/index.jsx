@@ -1,11 +1,11 @@
-import styles from "./CTA.module.css";
+import styles from "./Testimonials.module.css";
 import { testimonials } from "../../../mock/testimonials";
 import Article from "../../Article";
 import QuoteButton from "../../QuoteButton";
 import TestimonialCard from "../../TestimonialCard";
 import SmalArrow from "../../Icons/SmalArrow";
 
-export default function CTA() {
+export default function Testimonials() {
     return (
         <Article
             title='Make something awesome'
