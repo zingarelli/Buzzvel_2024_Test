@@ -8,7 +8,7 @@ export default function App() {
       <Section.Services />
       <Section.Features />
       <Section.Testimonials />
-      {/* <Section.CTA /> */}
+      <Section.CTA />
       {/* <Footer /> */}
     </>
   )
