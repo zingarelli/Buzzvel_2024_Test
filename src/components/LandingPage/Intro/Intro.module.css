@@ -28,3 +28,42 @@
     bottom: 125px;
     z-index: 0;
 }
+
+.circle__left--lg,
+.circle__right--lg {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .article p {
+        width: 900px;
+        margin: 24px auto 0;
+    }
+
+    .circle__left,
+    .circle__right {
+        display: none;
+    }
+
+    .circle__left--lg {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 195px;
+        z-index: 0;
+    }
+
+    .circle__right--lg {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 430px;
+        z-index: 0;
+    }
+
+    .image {
+        margin-top: 121px;
+        width: 90%;
+        max-width: 1520px;
+    }
+}
