@@ -40,7 +40,13 @@ export default function Services() {
                     Congue mauris sem vel, urna viverra. Urna, nibh leo suscipit purus ut sed eros, consectetur viverra.
                 </InfoCard>
             </div>
-            <img src={services} alt="placeholder for picture in the Services section" />
+            <div className={styles.imageWrapper}>
+                <img
+                    src={services}
+                    alt="placeholder for picture in the Services section"
+                    className={styles.image}
+                />
+            </div>
         </Article>
     );
 }

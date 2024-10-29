@@ -5,3 +5,12 @@
     gap: 48px;
     justify-content: space-between;
 }
+
+.imageWrapper {
+    display: flex;
+    margin-left: -16px;
+}
+
+.image {
+    filter: var(--image-shadow);
+}

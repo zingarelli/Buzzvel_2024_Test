@@ -40,7 +40,13 @@ export default function Features() {
                     Elementum, libero, lacus, vel ullamcorper at velit id. Malesuada velit et, ullamcorper malesuada amet, felis. 
                 </InfoCard>
             </div>
-            <img src={features} alt="placeholder for picture in the Features section" />
+            <div className={styles.imageWrapper}>
+                <img
+                    src={features}
+                    alt="placeholder for picture in the Features section"
+                    className={styles.image}
+                />
+            </div>
         </Article>
     );
 }

@@ -1,9 +1,10 @@
-.navWrapper {
-    height: 333px;
+.header {
+    padding: 10px 16px 48px;
 }
 
 .nav {
-    padding: 10px;
+    height: 333px;
+    margin-bottom: 48px;
 }
 
 .nav__button {
@@ -24,7 +25,6 @@
 }
 
 .content {
-    padding: 48px 0;
     display: flex;
     flex-direction: column;
     row-gap: 64px;
@@ -34,7 +34,8 @@
     display: flex;
     flex-direction: column;
     row-gap: 24px;
-    text-align: center;    
+    text-align: center;
+    align-items: center;
 }
 
 .title {
