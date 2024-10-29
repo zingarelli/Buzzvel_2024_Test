@@ -2,6 +2,7 @@
     margin: 24px 19px 64px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .carousel {
@@ -9,6 +10,11 @@
     flex-direction: column;
     align-items: center;
     row-gap: 64px;
+}
+
+/* TODO: workaround while the slider is not implemented */
+.carousel--lg {
+    display: none;
 }
 
 .carousel__nav {
@@ -23,4 +29,44 @@
     border-radius: 100%;
     background-color: transparent;
     padding: 12px;
+}
+
+@media screen and (min-width: 1440px) {
+    .article {
+        display: grid;
+        grid-template-areas: 
+            "header quote"
+            "car car";
+        row-gap: 80px;
+        text-align: left;
+    }
+
+    .article>div:first-child {
+        max-width: 814px;
+    }
+
+    .quoteButton {
+        grid-area: quote;
+        margin: 40px 40px 0 0;
+        justify-self: flex-end;
+    }
+
+    /* TODO: workaround while the slider is not implemented */
+    .carousel {
+        display: none;
+    }
+
+    .carousel--lg {
+        grid-area: car;
+        display: flex;
+        flex-direction: column;
+        row-gap: 80px;
+        align-items: flex-start;
+        overflow-x: hidden;
+    }
+
+    .carousel__list {
+        display: flex;
+        column-gap: 24px;
+    }
 }

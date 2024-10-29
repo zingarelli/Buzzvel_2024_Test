@@ -14,7 +14,7 @@ export default function Hero() {
                 <p className={styles.text}>Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</p>
                 <QuoteButton />
             </section>
-            <Testimonial content={testimonials[0]} highlight />
+            <Testimonial content={testimonials[5]} highlight />
         </main>
     );
 }

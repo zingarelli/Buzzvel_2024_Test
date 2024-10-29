@@ -22,12 +22,14 @@ export default function Article({
 }) {
     return (
         <article className={`${styles.article} ${styles[`article--${theme}`]} ${className}`}>
-            <Heading supTitle={supTitle} theme={theme}>{title}</Heading>
-            {introduction && <p
-                className={`${styles.article__intro} ${styles[`article__intro--${theme}`]}`}
-            >
-                {introduction}
-            </p>}
+            <div>
+                <Heading supTitle={supTitle} theme={theme}>{title}</Heading>
+                {introduction && <p
+                    className={`${styles.article__intro} ${styles[`article__intro--${theme}`]}`}
+                >
+                    {introduction}
+                </p>}
+            </div>
             {children}
         </article>
     );
