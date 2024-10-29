@@ -7,8 +7,17 @@
     width: 90vw;
     max-width: 358px;
     box-sizing: border-box;
+    filter: var(--image-shadow);
 }
 
 .image {
     margin-bottom: 16px;
+}
+
+@media screen and (min-width: 1440px) {
+    .wrapper {
+        width: 364px;
+        max-width: none;
+        padding: 56px 32px;
+    }
 }

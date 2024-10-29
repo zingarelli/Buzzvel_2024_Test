@@ -48,3 +48,10 @@
     font-size: var(--base);
     line-height: 22px;
 }
+
+@media screen and (min-width: 1440px) {
+    .testimonial {
+        font-size: var(--md);
+        line-height: 29px;
+    }
+}
