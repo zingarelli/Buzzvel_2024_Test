@@ -1,3 +1,7 @@
+.article {
+    padding-bottom: 0;
+}
+
 .cards {
     margin: 64px auto 24px;
     display: flex;
@@ -7,10 +11,39 @@
 }
 
 .imageWrapper {
-    display: flex;
-    margin-left: -16px;
+    margin: 23px auto 48px;
 }
 
 .image {
     filter: var(--image-shadow);
+}
+
+@media screen and (min-width: 1440px) {
+    .wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        column-gap: 71px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .article {
+        width: 60%;
+        max-width: 1180px;
+        padding: 0;
+        margin-right: 80px;
+        text-align: left;
+    }
+
+    .imageWrapper {
+        margin: 0;
+        width: 100%;
+        max-width: 589px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr;
+        margin: 48px 0 0 0;
+    }
 }
