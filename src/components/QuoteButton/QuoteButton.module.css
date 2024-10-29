@@ -25,6 +25,10 @@
     background-color: var(--purple-primary);
 }
 
+.purpleTheme:hover path {
+    fill: var(--orange-secondary);;
+}
+
 .orangeTheme {
     color: var(--orange-secondary);
     border-color: var(--orange-secondary);
@@ -34,4 +38,8 @@
 .orangeTheme:hover {
     color: var(--orange-tertiary);
     background-color: var(--orange-secondary);
+}
+
+.orangeTheme:hover path {
+    fill: var(--orange-tertiary);
 }

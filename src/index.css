@@ -26,10 +26,9 @@
   --purple-tertiary: #A252EE;
   --purple-quaternary: #A855F7;
 
-  /* screen breakpoints */
-  --mobile: 375px;
-  --desktop: 1920px;
-  /* --tablet: ? */
+  /* screen breakpoint */
+  /* this doesn't work for media queries, but I left it here as a reference */
+  --desktop: 768px; 
 
   --image-shadow: 
     drop-shadow(0 0 10px rgba(0, 0, 0, 0.07))
@@ -43,6 +42,10 @@ button {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none; 
   color: var(--black-primary);
+}
+
+button {
+  cursor: pointer;
 }

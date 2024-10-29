@@ -4,7 +4,6 @@ import Services from "./Services";
 import Features from "./Features";
 import Testimonials from "./Testimonials";
 import CTA from "./CTA";
-import Footer from "./Footer";
 
 export {
     Hero,
@@ -13,5 +12,4 @@ export {
     Features,
     Testimonials,
     CTA,
-    Footer
 }
