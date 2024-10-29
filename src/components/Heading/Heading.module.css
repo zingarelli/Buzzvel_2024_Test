@@ -1,4 +1,4 @@
-.supTitle {    
+.supTitle {
     font-size: var(--base);
     font-weight: 500;
     line-height: 18px;
@@ -25,4 +25,17 @@
 
 .secondary {
     color: var(--white);
+}
+
+@media screen and (min-width: 1440px) {
+    .supTitle {
+        font-size: var(--lg);
+        line-height: 22px;
+    }
+
+    .title {
+        font-size: var(--heading-3);
+        font-weight: 800;
+        line-height: 62px;
+    }
 }

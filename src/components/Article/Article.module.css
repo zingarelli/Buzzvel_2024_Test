@@ -23,3 +23,14 @@
 .article__intro--secondary {
     color: var(--white);
 }
+
+@media screen and (min-width: 1440px) {
+    .article {
+        padding: 80px;
+    }
+    
+    .article__intro {
+        font-size: var(--lg);
+        line-height: 36px;
+    }
+}
