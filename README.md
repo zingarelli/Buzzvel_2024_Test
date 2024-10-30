@@ -81,3 +81,11 @@ Below is a list of unfinished task and the strategy I was planning on following 
 - SEO Optimization: I developed the application using semantic HTML and used title and meta tags for a minimum website description, but I didn't apply other SEO techniques and optimization. I was planning on studying react-helmet, as mentioned in the test instructions, and verify how I could apply it to the project;
 
 - Animation and performance: I added animations for a better user interaction with buttons and used the `picture` element to display the best image based on the screen size. I planned on using `React.lazy` and [Framer Motion](https://www.framer.com/motion/) library to optimize performance and add animations between sections, as the user scrolls through the content.
+
+## Online demo
+
+This project is deployed on Vercel and you can check it online on this link: https://buzzvel-2024-test.vercel.app/
+
+A video demonstration is available on YouTube. You can click on the image below to watch it. Please, be advised that, due to my software recorder and video compression, the quality is inferior to the one seen in the online version. To get the full experience, please visit the website hosted in Vercel.
+
+[![Soller demo](https://img.youtube.com/vi/SScM8bw8fNI/0.jpg)](https://www.youtube.com/watch?v=SScM8bw8fNI)
