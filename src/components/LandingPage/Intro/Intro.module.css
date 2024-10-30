@@ -2,7 +2,7 @@
     position: relative;
 }
 
-.article > p {
+.article p {
     position: relative;
     z-index: 1;
 }

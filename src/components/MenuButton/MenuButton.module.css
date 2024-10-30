@@ -2,6 +2,7 @@
     font-size: var(--sm);
     font-weight: 500;
     letter-spacing: 0.5px;
+    height: 40px;
     padding: 8px;
     border-radius: 100px;
     border: 2px solid var(--orange-secondary);
@@ -9,7 +10,7 @@
     color: var(--orange-tertiary);
     display: flex;
     align-items: center;
-    column-gap: 8px;
+    filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.10)) drop-shadow(0 0 2px rgba(0, 0, 0, 0.07));
 }
 
 .button__icon {
@@ -18,7 +19,19 @@
 }
 
 .button__text {
-    margin-right: 8px;
+    max-width: 0;
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: .3s ease-out, max-width .3s ease-in-out, opacity .1s ease-out;
+}
+
+.button__text--active {
+    max-width: 200px;
+    opacity: 1;
+    transform: scaleX(1);
+    margin: 0 8px;
+    transition: .3s ease-out, max-width .2s ease-in-out, opacity .3s ease-in;
 }
 
 @media screen and (min-width: 1024px) {
@@ -26,6 +39,3 @@
         display: none;
     }
 }
-
-/* TODO: smooth animation */
-

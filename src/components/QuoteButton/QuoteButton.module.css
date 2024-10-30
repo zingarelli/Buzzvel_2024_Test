@@ -14,15 +14,20 @@
     column-gap: 24px;
 }
 
+.button,
+.button path {
+    transition: 0.2s ease-out;
+}
+
 .purpleTheme {
     color: var(--purple-primary);
     border-color: var(--purple-primary);
 }
 
-/* TODO: smooth animation */
 .purpleTheme:hover {
     color: var(--orange-secondary);
     background-color: var(--purple-primary);
+    filter: var(--button-shadow);
 }
 
 .purpleTheme:hover path {
@@ -34,10 +39,10 @@
     border-color: var(--orange-secondary);
 }
 
-/* TODO: smooth animation */
 .orangeTheme:hover {
     color: var(--orange-tertiary);
     background-color: var(--orange-secondary);
+    filter: var(--button-shadow);
 }
 
 .orangeTheme:hover path {

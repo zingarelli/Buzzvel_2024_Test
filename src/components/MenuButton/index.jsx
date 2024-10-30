@@ -9,6 +9,10 @@ import { useState } from 'react';
  */
 export default function MenuButton({ className }) {
     const [expanded, setExpanded] = useState(false);
+    const textStyles = expanded 
+        ? `${styles.button__text} ${styles['button__text--active']}`
+        : styles.button__text;
+
     return (
         <button
             className={`${styles.button} ${className}`}
@@ -19,7 +23,7 @@ export default function MenuButton({ className }) {
                 alt="icon of a plus sign to expand the button"
                 className={styles.button__icon}
             />
-            {expanded && <span className={styles.button__text}>Request a Quote</span>}
+            <span className={textStyles} >Request a Quote</span>
         </button>
     )
 }
